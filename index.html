@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DOM getElementByClassName() Method</title>
+</head>
+
+<body>
+
+    <!-- Multiple html element with GeeksforGeeks class name -->
+    <h1 class="sample"> This is js demo</h1>
+    <h1 class="sample"> This is js demo</h1>
+    <h1 class="sample"> This is js demo</h1>
+
+
+    <p>DOM getElementsByclassName() Method</p>
+
+
+    <script>
+        // Accessing the element by getElementsByclassName
+        // method with multiple class
+        var temp = document.getElementsByClassName(
+            "sample");
+
+        console.log(temp[0]);
+    </script>
+</body>
+
+</html>
